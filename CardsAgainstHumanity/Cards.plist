@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Black Cards</key>
+	<array>
+		<string>What&apos;s that smell?</string>
+		<string>What&apos;s that noise?</string>
+	</array>
+	<key>White Cards</key>
+	<array>
+		<string>Your mom.</string>
+		<string>Being on fire.</string>
+		<string>When you fart and a little bit comes out.</string>
+		<string>The World of Warcraft.</string>
+		<string>Hackathons.</string>
+	</array>
+</dict>
+</plist>

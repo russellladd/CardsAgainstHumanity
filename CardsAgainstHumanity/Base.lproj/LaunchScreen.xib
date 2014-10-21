@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vgk-68-dBP">
+                    <rect key="frame" x="131" y="108" width="219" height="265"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eY-R0-bqW">
+                            <rect key="frame" x="0.0" y="0.0" width="219" height="179"/>
+                            <string key="text">Cards
+Against
+Humanity</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cY-Kh-xXC">
+                            <rect key="frame" x="180" y="229" width="39" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal" title="Join">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pd-HP-hjU">
+                            <rect key="frame" x="0.0" y="229" width="44" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal" title="Host">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="0pd-HP-hjU" firstAttribute="top" secondItem="8eY-R0-bqW" secondAttribute="bottom" constant="50" id="GAo-E1-VGM"/>
+                        <constraint firstItem="8eY-R0-bqW" firstAttribute="leading" secondItem="Vgk-68-dBP" secondAttribute="leading" id="Ndz-MF-JCD"/>
+                        <constraint firstAttribute="trailing" secondItem="8eY-R0-bqW" secondAttribute="trailing" id="Pbm-sm-anN"/>
+                        <constraint firstItem="8eY-R0-bqW" firstAttribute="top" secondItem="Vgk-68-dBP" secondAttribute="top" id="glf-Hu-e2c"/>
+                        <constraint firstAttribute="trailing" secondItem="8cY-Kh-xXC" secondAttribute="trailing" id="jpX-vE-YWQ"/>
+                        <constraint firstItem="0pd-HP-hjU" firstAttribute="leading" secondItem="Vgk-68-dBP" secondAttribute="leading" id="m8f-Rq-5EU"/>
+                        <constraint firstAttribute="bottom" secondItem="8cY-Kh-xXC" secondAttribute="bottom" id="voh-pw-4OL"/>
+                        <constraint firstItem="8cY-Kh-xXC" firstAttribute="top" secondItem="8eY-R0-bqW" secondAttribute="bottom" constant="50" id="xft-K7-fWR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Vgk-68-dBP" secondAttribute="centerX" id="Uh1-0u-IyC"/>
+                <constraint firstAttribute="centerY" secondItem="Vgk-68-dBP" secondAttribute="centerY" id="zUg-ur-fbM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sa5-Fx-9B3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Cards Against Humanity-->
+        <scene sceneID="BXM-mz-Fzc">
+            <objects>
+                <viewController id="sa5-Fx-9B3" customClass="JoinViewController" customModule="CardsAgainstHumanity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ejX-6s-Oj4"/>
+                        <viewControllerLayoutGuide type="bottom" id="1NV-aK-tQo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kLd-W0-daw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wyt-kd-wdn">
+                                <rect key="frame" x="191" y="168" width="219" height="265"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hu-Jn-Z3g">
+                                        <rect key="frame" x="0.0" y="0.0" width="219" height="179"/>
+                                        <string key="text">Cards
+Against
+Humanity</string>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEJ-bS-YnP">
+                                        <rect key="frame" x="90" y="229" width="39" height="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="Join">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="b4V-gJ-pJ1" kind="presentation" identifier="showBrowser" modalTransitionStyle="crossDissolve" id="Ptc-bh-pRG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JEJ-bS-YnP" secondAttribute="bottom" id="6Bk-5O-tAs"/>
+                                    <constraint firstItem="JEJ-bS-YnP" firstAttribute="top" secondItem="4hu-Jn-Z3g" secondAttribute="bottom" constant="50" id="J82-4E-94d"/>
+                                    <constraint firstItem="4hu-Jn-Z3g" firstAttribute="top" secondItem="Wyt-kd-wdn" secondAttribute="top" id="Xrm-hq-X8u"/>
+                                    <constraint firstAttribute="trailing" secondItem="4hu-Jn-Z3g" secondAttribute="trailing" id="hT0-YS-1Yw"/>
+                                    <constraint firstItem="4hu-Jn-Z3g" firstAttribute="leading" secondItem="Wyt-kd-wdn" secondAttribute="leading" id="sRv-xi-u0F"/>
+                                    <constraint firstAttribute="centerX" secondItem="JEJ-bS-YnP" secondAttribute="centerX" id="u3e-2e-FRp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Wyt-kd-wdn" secondAttribute="centerY" id="Jc1-Bd-Kyh"/>
+                            <constraint firstAttribute="centerX" secondItem="Wyt-kd-wdn" secondAttribute="centerX" id="YFf-tF-sxT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cards Against Humanity" id="804-cn-NrK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKB-E7-3Yw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="-328"/>
+        </scene>
+        <!--Hand View Controller-->
+        <scene sceneID="WBh-u9-4ns">
+            <objects>
+                <viewController id="nx5-Ec-Y31" customClass="HandViewController" customModule="CardsAgainstHumanity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8w2-uf-Bnl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ac3-8W-q1n"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Gow-Qe-NU7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kOC-kI-BWr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="BUt-7Q-UOB" customClass="HandLayout" customModule="CardsAgainstHumanity" customModuleProvider="target"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Card Cell" id="28R-mn-IGt" customClass="CardCell" customModule="CardsAgainstHumanity" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtg-fy-kYT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="600"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWN-G8-wcD">
+                                                            <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs6-vI-z9D">
+                                                                    <rect key="frame" x="16" y="16" width="168" height="29"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGd-P2-u6n">
+                                                                    <rect key="frame" x="16" y="16" width="168" height="108"/>
+                                                                    <string key="text">Cards
+Against
+Humanity</string>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <gestureRecognizers/>
+                                                            <constraints>
+                                                                <constraint firstItem="rs6-vI-z9D" firstAttribute="leading" secondItem="cWN-G8-wcD" secondAttribute="leading" constant="16" id="Hg6-jt-VII"/>
+                                                                <constraint firstItem="sGd-P2-u6n" firstAttribute="top" secondItem="cWN-G8-wcD" secondAttribute="top" constant="16" id="W10-HF-aq8"/>
+                                                                <constraint firstAttribute="trailing" secondItem="sGd-P2-u6n" secondAttribute="trailing" constant="16" id="bTH-NK-lwg"/>
+                                                                <constraint firstItem="rs6-vI-z9D" firstAttribute="top" secondItem="cWN-G8-wcD" secondAttribute="top" constant="16" id="dBu-WA-ukD"/>
+                                                                <constraint firstItem="sGd-P2-u6n" firstAttribute="leading" secondItem="cWN-G8-wcD" secondAttribute="leading" constant="16" id="k9C-qF-rEv"/>
+                                                                <constraint firstAttribute="trailing" secondItem="rs6-vI-z9D" secondAttribute="trailing" constant="16" id="mBP-Sl-VDA"/>
+                                                                <constraint firstAttribute="width" secondItem="cWN-G8-wcD" secondAttribute="height" multiplier="2:3" id="qtS-ko-xCO"/>
+                                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="rs6-vI-z9D" secondAttribute="bottom" constant="16" id="uCe-0Z-G2G"/>
+                                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sGd-P2-u6n" secondAttribute="bottom" constant="16" id="vuO-Us-t2Z"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="cWN-G8-wcD" secondAttribute="trailing" id="97i-bI-VNZ"/>
+                                                        <constraint firstItem="cWN-G8-wcD" firstAttribute="width" secondItem="Wtg-fy-kYT" secondAttribute="width" id="I0y-xO-zGy"/>
+                                                        <constraint firstItem="cWN-G8-wcD" firstAttribute="leading" secondItem="Wtg-fy-kYT" secondAttribute="leading" id="I3O-jR-fNe"/>
+                                                        <constraint firstAttribute="bottom" secondItem="cWN-G8-wcD" secondAttribute="bottom" multiplier="4" id="QsD-8K-r33"/>
+                                                        <constraint firstItem="cWN-G8-wcD" firstAttribute="top" secondItem="Wtg-fy-kYT" secondAttribute="top" id="pvP-83-f7z"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="nx5-Ec-Y31" id="i57-MO-Zr5"/>
+                                                    </connections>
+                                                </scrollView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Wtg-fy-kYT" secondAttribute="bottom" multiplier="0.5" id="Apl-bS-mge"/>
+                                            <constraint firstItem="Wtg-fy-kYT" firstAttribute="top" secondItem="28R-mn-IGt" secondAttribute="top" id="CA4-Tj-O6u"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wtg-fy-kYT" secondAttribute="trailing" id="HcY-77-0us"/>
+                                            <constraint firstItem="Wtg-fy-kYT" firstAttribute="leading" secondItem="28R-mn-IGt" secondAttribute="leading" id="QcN-bv-qk0"/>
+                                        </constraints>
+                                        <size key="customSize" width="200" height="300"/>
+                                        <connections>
+                                            <outlet property="cahLabel" destination="sGd-P2-u6n" id="nNb-PG-f3j"/>
+                                            <outlet property="cardView" destination="cWN-G8-wcD" id="kPj-UA-t3d"/>
+                                            <outlet property="scrollView" destination="Wtg-fy-kYT" id="W5k-hq-gIk"/>
+                                            <outlet property="textLabel" destination="rs6-vI-z9D" id="l9z-Dl-kt2"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="nx5-Ec-Y31" id="5Kx-qo-IQZ"/>
+                                    <outlet property="delegate" destination="nx5-Ec-Y31" id="EDL-xD-rii"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kOC-kI-BWr" secondAttribute="trailing" id="4sd-sI-SoW"/>
+                            <constraint firstAttribute="bottom" secondItem="kOC-kI-BWr" secondAttribute="bottom" id="Itq-9l-TqH"/>
+                            <constraint firstItem="kOC-kI-BWr" firstAttribute="leading" secondItem="Gow-Qe-NU7" secondAttribute="leading" id="il9-6T-702"/>
+                            <constraint firstItem="kOC-kI-BWr" firstAttribute="top" secondItem="Gow-Qe-NU7" secondAttribute="top" id="xIv-oR-D7j"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="collectionView" destination="kOC-kI-BWr" id="adO-NE-n74"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNc-0c-J4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4599" y="-328"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NNP-Zv-YW1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b4V-gJ-pJ1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="eqC-yY-Ctn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6bn-cm-wgs" kind="relationship" relationship="rootViewController" id="aIb-l6-vkl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FqC-dL-JVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2835" y="-328"/>
+        </scene>
+        <!--Choose Game-->
+        <scene sceneID="Zrt-Uu-DJ9">
+            <objects>
+                <collectionViewController id="6bn-cm-wgs" customClass="BrowserViewController" customModule="CardsAgainstHumanity" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="22h-3D-Xzz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NeI-tO-4dl">
+                            <size key="itemSize" width="400" height="400"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Device Cell" id="KAc-uS-RoH" customClass="DeviceCell" customModule="CardsAgainstHumanity" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxk-hD-13k">
+                                            <rect key="frame" x="8" y="132" width="384" height="36"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU5-lN-Afq">
+                                            <rect key="frame" x="165" y="306" width="71" height="36"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <state key="normal" title="Choose">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="chooseButtonTouchUpInside:" destination="6bn-cm-wgs" eventType="touchUpInside" id="yXH-dv-9Wq"/>
+                                            </connections>
+                                        </button>
+                                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="1JE-rd-6Rj">
+                                            <rect key="frame" x="182" y="305" width="37" height="37"/>
+                                        </activityIndicatorView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="Dxk-hD-13k" secondAttribute="centerY" constant="50" id="39i-Py-ZBX"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="Dxk-hD-13k" secondAttribute="trailing" id="3LA-Ah-B6M"/>
+                                    <constraint firstAttribute="centerX" secondItem="EU5-lN-Afq" secondAttribute="centerX" id="8kw-0w-pug"/>
+                                    <constraint firstItem="1JE-rd-6Rj" firstAttribute="centerX" secondItem="EU5-lN-Afq" secondAttribute="centerX" id="W0N-4L-KA6"/>
+                                    <constraint firstItem="Dxk-hD-13k" firstAttribute="leading" secondItem="KAc-uS-RoH" secondAttribute="leadingMargin" id="ZlQ-pS-QBu"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="EU5-lN-Afq" secondAttribute="bottom" constant="50" id="dBD-ik-q9u"/>
+                                    <constraint firstItem="1JE-rd-6Rj" firstAttribute="centerY" secondItem="EU5-lN-Afq" secondAttribute="centerY" id="tmP-x7-4NF"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="activityIndicatorView" destination="1JE-rd-6Rj" id="CtB-MQ-OYd"/>
+                                    <outlet property="button" destination="EU5-lN-Afq" id="9uF-gJ-Cpq"/>
+                                    <outlet property="label" destination="Dxk-hD-13k" id="rqG-qR-8J0"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="6bn-cm-wgs" id="6CE-op-lkW"/>
+                            <outlet property="delegate" destination="6bn-cm-wgs" id="W5g-zY-9lw"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Choose Game" id="LWO-AF-dYy">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="acr-jo-ktY">
+                            <connections>
+                                <action selector="cancelBarButtonItemAction" destination="6bn-cm-wgs" id="n4c-s5-Ie2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="nx5-Ec-Y31" kind="presentation" identifier="showHand" modalTransitionStyle="crossDissolve" id="23Y-gz-6kn"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBK-i3-YLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3635" y="-328"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</document>

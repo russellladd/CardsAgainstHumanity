@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4629C29E19F350FA0072ACAD /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629C29D19F350FA0072ACAD /* DeviceCell.swift */; };
+		4629C2A419F38D4E0072ACAD /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629C2A319F38D4E0072ACAD /* NewGameViewController.swift */; };
+		4629C2A819F399C60072ACAD /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629C2A719F399C60072ACAD /* Server.swift */; };
+		4629C2AE19F3FA930072ACAD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629C2AD19F3FA930072ACAD /* Service.swift */; };
+		4670FC7C19F2B0D8008EEDF9 /* Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4670FC7B19F2B0D8008EEDF9 /* Pad.storyboard */; };
+		4670FC7E19F2B5B2008EEDF9 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670FC7D19F2B5B2008EEDF9 /* CardCell.swift */; };
+		4670FC8419F2B79E008EEDF9 /* HandLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670FC8319F2B79E008EEDF9 /* HandLayout.swift */; };
+		4670FC8619F2FB74008EEDF9 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670FC8519F2FB74008EEDF9 /* JoinViewController.swift */; };
+		4670FC8819F31086008EEDF9 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670FC8719F31086008EEDF9 /* Deck.swift */; };
+		4670FC8D19F3430E008EEDF9 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670FC8C19F3430E008EEDF9 /* Browser.swift */; };
+		4670FC8F19F34A30008EEDF9 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4670FC8E19F34A30008EEDF9 /* BrowserViewController.swift */; };
+		46A258F919F25D8900BEEAD6 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A258F819F25D8900BEEAD6 /* Client.swift */; };
+		46A258FB19F25D9D00BEEAD6 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A258FA19F25D9D00BEEAD6 /* MultipeerConnectivity.framework */; };
+		46A258FE19F2638800BEEAD6 /* Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A258FD19F2638800BEEAD6 /* Phone.storyboard */; };
+		46C12B0A19F225C6003D9DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C12B0919F225C6003D9DF8 /* AppDelegate.swift */; };
+		46C12B1119F225C6003D9DF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C12B1019F225C6003D9DF8 /* Images.xcassets */; };
+		46C12B1419F225C6003D9DF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46C12B1219F225C6003D9DF8 /* LaunchScreen.xib */; };
+		46C12B2019F225C6003D9DF8 /* CardsAgainstHumanityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C12B1F19F225C6003D9DF8 /* CardsAgainstHumanityTests.swift */; };
+		46C12B2A19F226A2003D9DF8 /* HandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C12B2919F226A2003D9DF8 /* HandViewController.swift */; };
+		46C12B2E19F226EE003D9DF8 /* FloorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C12B2D19F226EE003D9DF8 /* FloorViewController.swift */; };
+		46C12B3019F2273F003D9DF8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C12B2F19F2273F003D9DF8 /* Game.swift */; };
+		46C12B3219F22AAC003D9DF8 /* Cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46C12B3119F22AAC003D9DF8 /* Cards.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46C12B1A19F225C6003D9DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46C12AFC19F225C6003D9DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C12B0319F225C6003D9DF8;
+			remoteInfo = CardsAgainstHumanity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4629C29D19F350FA0072ACAD /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		4629C2A319F38D4E0072ACAD /* NewGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+		4629C2A719F399C60072ACAD /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		4629C2AD19F3FA930072ACAD /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4670FC7B19F2B0D8008EEDF9 /* Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pad.storyboard; sourceTree = "<group>"; };
+		4670FC7D19F2B5B2008EEDF9 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		4670FC8319F2B79E008EEDF9 /* HandLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandLayout.swift; sourceTree = "<group>"; };
+		4670FC8519F2FB74008EEDF9 /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		4670FC8719F31086008EEDF9 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4670FC8C19F3430E008EEDF9 /* Browser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		4670FC8E19F34A30008EEDF9 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		46A258F819F25D8900BEEAD6 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		46A258FA19F25D9D00BEEAD6 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		46A258FD19F2638800BEEAD6 /* Phone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Phone.storyboard; sourceTree = "<group>"; };
+		46C12B0419F225C6003D9DF8 /* CardsAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C12B0819F225C6003D9DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C12B0919F225C6003D9DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46C12B1019F225C6003D9DF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46C12B1319F225C6003D9DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46C12B1919F225C6003D9DF8 /* CardsAgainstHumanityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsAgainstHumanityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C12B1E19F225C6003D9DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C12B1F19F225C6003D9DF8 /* CardsAgainstHumanityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsAgainstHumanityTests.swift; sourceTree = "<group>"; };
+		46C12B2919F226A2003D9DF8 /* HandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandViewController.swift; sourceTree = "<group>"; };
+		46C12B2D19F226EE003D9DF8 /* FloorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloorViewController.swift; path = ../FloorViewController.swift; sourceTree = "<group>"; };
+		46C12B2F19F2273F003D9DF8 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		46C12B3119F22AAC003D9DF8 /* Cards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cards.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46C12B0119F225C6003D9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A258FB19F25D9D00BEEAD6 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C12B1619F225C6003D9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4629C2A519F38EB30072ACAD /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				4670FC8519F2FB74008EEDF9 /* JoinViewController.swift */,
+				4670FC8E19F34A30008EEDF9 /* BrowserViewController.swift */,
+				46C12B2919F226A2003D9DF8 /* HandViewController.swift */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		4629C2A619F38EBA0072ACAD /* Pad */ = {
+			isa = PBXGroup;
+			children = (
+				4629C2A319F38D4E0072ACAD /* NewGameViewController.swift */,
+				46C12B2D19F226EE003D9DF8 /* FloorViewController.swift */,
+			);
+			name = Pad;
+			sourceTree = "<group>";
+		};
+		4670FC7F19F2B5C4008EEDF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4629C29D19F350FA0072ACAD /* DeviceCell.swift */,
+				4670FC7D19F2B5B2008EEDF9 /* CardCell.swift */,
+				4670FC8319F2B79E008EEDF9 /* HandLayout.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4670FC8019F2B5C9008EEDF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4670FC8719F31086008EEDF9 /* Deck.swift */,
+				46C12B2F19F2273F003D9DF8 /* Game.swift */,
+				4629C2AD19F3FA930072ACAD /* Service.swift */,
+				46A258F819F25D8900BEEAD6 /* Client.swift */,
+				4629C2A719F399C60072ACAD /* Server.swift */,
+				4670FC8C19F3430E008EEDF9 /* Browser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4670FC8119F2B5E2008EEDF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46C12B3119F22AAC003D9DF8 /* Cards.plist */,
+				46C12B1219F225C6003D9DF8 /* LaunchScreen.xib */,
+				46A258FD19F2638800BEEAD6 /* Phone.storyboard */,
+				4670FC7B19F2B0D8008EEDF9 /* Pad.storyboard */,
+				46C12B1019F225C6003D9DF8 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4670FC8219F2B5F0008EEDF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4629C2A519F38EB30072ACAD /* Phone */,
+				4629C2A619F38EBA0072ACAD /* Pad */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46A258FC19F25DA200BEEAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46A258FA19F25D9D00BEEAD6 /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46C12AFB19F225C6003D9DF8 = {
+			isa = PBXGroup;
+			children = (
+				46C12B0619F225C6003D9DF8 /* CardsAgainstHumanity */,
+				46C12B1C19F225C6003D9DF8 /* CardsAgainstHumanityTests */,
+				46C12B0519F225C6003D9DF8 /* Products */,
+				46A258FC19F25DA200BEEAD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46C12B0519F225C6003D9DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C12B0419F225C6003D9DF8 /* CardsAgainstHumanity.app */,
+				46C12B1919F225C6003D9DF8 /* CardsAgainstHumanityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C12B0619F225C6003D9DF8 /* CardsAgainstHumanity */ = {
+			isa = PBXGroup;
+			children = (
+				46C12B0919F225C6003D9DF8 /* AppDelegate.swift */,
+				4670FC8019F2B5C9008EEDF9 /* Model */,
+				4670FC7F19F2B5C4008EEDF9 /* View */,
+				4670FC8219F2B5F0008EEDF9 /* Controller */,
+				4670FC8119F2B5E2008EEDF9 /* Resources */,
+				46C12B0719F225C6003D9DF8 /* Supporting Files */,
+			);
+			path = CardsAgainstHumanity;
+			sourceTree = "<group>";
+		};
+		46C12B0719F225C6003D9DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C12B0819F225C6003D9DF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46C12B1C19F225C6003D9DF8 /* CardsAgainstHumanityTests */ = {
+			isa = PBXGroup;
+			children = (
+				46C12B1F19F225C6003D9DF8 /* CardsAgainstHumanityTests.swift */,
+				46C12B1D19F225C6003D9DF8 /* Supporting Files */,
+			);
+			path = CardsAgainstHumanityTests;
+			sourceTree = "<group>";
+		};
+		46C12B1D19F225C6003D9DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C12B1E19F225C6003D9DF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C12B0319F225C6003D9DF8 /* CardsAgainstHumanity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C12B2319F225C6003D9DF8 /* Build configuration list for PBXNativeTarget "CardsAgainstHumanity" */;
+			buildPhases = (
+				46C12B0019F225C6003D9DF8 /* Sources */,
+				46C12B0119F225C6003D9DF8 /* Frameworks */,
+				46C12B0219F225C6003D9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardsAgainstHumanity;
+			productName = CardsAgainstHumanity;
+			productReference = 46C12B0419F225C6003D9DF8 /* CardsAgainstHumanity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46C12B1819F225C6003D9DF8 /* CardsAgainstHumanityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46C12B2619F225C6003D9DF8 /* Build configuration list for PBXNativeTarget "CardsAgainstHumanityTests" */;
+			buildPhases = (
+				46C12B1519F225C6003D9DF8 /* Sources */,
+				46C12B1619F225C6003D9DF8 /* Frameworks */,
+				46C12B1719F225C6003D9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C12B1B19F225C6003D9DF8 /* PBXTargetDependency */,
+			);
+			name = CardsAgainstHumanityTests;
+			productName = CardsAgainstHumanityTests;
+			productReference = 46C12B1919F225C6003D9DF8 /* CardsAgainstHumanityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46C12AFC19F225C6003D9DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GRL5;
+				TargetAttributes = {
+					46C12B0319F225C6003D9DF8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					46C12B1819F225C6003D9DF8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 46C12B0319F225C6003D9DF8;
+					};
+				};
+			};
+			buildConfigurationList = 46C12AFF19F225C6003D9DF8 /* Build configuration list for PBXProject "CardsAgainstHumanity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46C12AFB19F225C6003D9DF8;
+			productRefGroup = 46C12B0519F225C6003D9DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46C12B0319F225C6003D9DF8 /* CardsAgainstHumanity */,
+				46C12B1819F225C6003D9DF8 /* CardsAgainstHumanityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46C12B0219F225C6003D9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A258FE19F2638800BEEAD6 /* Phone.storyboard in Resources */,
+				46C12B1419F225C6003D9DF8 /* LaunchScreen.xib in Resources */,
+				46C12B3219F22AAC003D9DF8 /* Cards.plist in Resources */,
+				4670FC7C19F2B0D8008EEDF9 /* Pad.storyboard in Resources */,
+				46C12B1119F225C6003D9DF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C12B1719F225C6003D9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46C12B0019F225C6003D9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4670FC8F19F34A30008EEDF9 /* BrowserViewController.swift in Sources */,
+				4670FC7E19F2B5B2008EEDF9 /* CardCell.swift in Sources */,
+				46A258F919F25D8900BEEAD6 /* Client.swift in Sources */,
+				4670FC8819F31086008EEDF9 /* Deck.swift in Sources */,
+				4629C29E19F350FA0072ACAD /* DeviceCell.swift in Sources */,
+				46C12B3019F2273F003D9DF8 /* Game.swift in Sources */,
+				4670FC8419F2B79E008EEDF9 /* HandLayout.swift in Sources */,
+				46C12B2E19F226EE003D9DF8 /* FloorViewController.swift in Sources */,
+				4629C2A419F38D4E0072ACAD /* NewGameViewController.swift in Sources */,
+				4629C2AE19F3FA930072ACAD /* Service.swift in Sources */,
+				4629C2A819F399C60072ACAD /* Server.swift in Sources */,
+				4670FC8619F2FB74008EEDF9 /* JoinViewController.swift in Sources */,
+				4670FC8D19F3430E008EEDF9 /* Browser.swift in Sources */,
+				46C12B2A19F226A2003D9DF8 /* HandViewController.swift in Sources */,
+				46C12B0A19F225C6003D9DF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C12B1519F225C6003D9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C12B2019F225C6003D9DF8 /* CardsAgainstHumanityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46C12B1B19F225C6003D9DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46C12B0319F225C6003D9DF8 /* CardsAgainstHumanity */;
+			targetProxy = 46C12B1A19F225C6003D9DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46C12B1219F225C6003D9DF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46C12B1319F225C6003D9DF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46C12B2119F225C6003D9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46C12B2219F225C6003D9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C12B2419F225C6003D9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardsAgainstHumanity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46C12B2519F225C6003D9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardsAgainstHumanity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46C12B2719F225C6003D9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardsAgainstHumanityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsAgainstHumanity.app/CardsAgainstHumanity";
+			};
+			name = Debug;
+		};
+		46C12B2819F225C6003D9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardsAgainstHumanityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsAgainstHumanity.app/CardsAgainstHumanity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46C12AFF19F225C6003D9DF8 /* Build configuration list for PBXProject "CardsAgainstHumanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C12B2119F225C6003D9DF8 /* Debug */,
+				46C12B2219F225C6003D9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C12B2319F225C6003D9DF8 /* Build configuration list for PBXNativeTarget "CardsAgainstHumanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C12B2419F225C6003D9DF8 /* Debug */,
+				46C12B2519F225C6003D9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46C12B2619F225C6003D9DF8 /* Build configuration list for PBXNativeTarget "CardsAgainstHumanityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C12B2719F225C6003D9DF8 /* Debug */,
+				46C12B2819F225C6003D9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46C12AFC19F225C6003D9DF8 /* Project object */;
+}
